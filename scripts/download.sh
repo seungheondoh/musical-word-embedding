@@ -1,2 +1,7 @@
-# mkdir ./data
-wget https://zenodo.org/records/7098952/files/MWE.tar.gz -O ./data/MWE.tar.gz
+#!/bin/bash
+
+mkdir ./data
+for i in {0..11}
+do
+    wget -O "./data/vector${i}.jsonl" "https://huggingface.co/datasets/seungheondoh/musical-word-embedding/resolve/main/vector${i}.jsonl"
+done
