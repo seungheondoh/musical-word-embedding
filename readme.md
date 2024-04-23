@@ -12,18 +12,17 @@
 
 Word embedding has become an essential means for text-based information retrieval. Typically, word embeddings are learned from large quantities of general and unstructured text data. However, in the domain of music, the word embedding may have difficulty understanding musical contexts or recognizing music-related entities like artists and tracks. To address this issue, we propose a new approach called Musical Word Embedding (MWE), which involves learning from various types of texts, including both everyday and music-related vocabulary.
 
-### Usage
-Clone the repository:
-```
-git clone https://github.com/seungheondoh/musical-word-embedding
-cd musical-word-embedding
-```
-
 ### Quick Start:
-Check both demo files in notebook
 
-- notebook/query_recommendation.ipynb
-- notebook/music_retrieval.ipynb
+- [Pre-trained Embedding Vector](https://huggingface.co/datasets/seungheondoh/musical-word-embedding) 
+- [Paper](https://arxiv.org/abs/2404.13569) 
+- [Blog](https://seungheondoh.github.io/musical_word_embedding_demo/)
+
+are available online for future research. 
+
+- [notebook-query_recommendation](https://github.com/seungheondoh/musical-word-embedding/blob/main/notebook/query_recommendation.ipynb)
+- [notebook-music_retrieval](https://github.com/seungheondoh/musical-word-embedding/blob/main/notebook/music_retrieval.ipynb)
+
 
 ### Run the download script for embedding vector:
 
